@@ -1,0 +1,84 @@
+.esim {
+  background-image: linear-gradient(45deg, rgba(34, 25, 74, 0) 30%, #4632a3 129%);
+  background-color: #010006;
+  padding-bottom: 50px;
+}
+
+.esim__button {
+  background: none;
+  border-radius: 30px;
+  height: 40px;
+  outline: none;
+  padding: 0 24px;
+  border: 1.25px solid rgba(255, 255, 255, 0.08);
+
+  &.violet {
+    background: #775cff;
+    color: #fff;
+  }
+
+  &.white {
+    background: #fff;
+    color: #272e3c;
+  }
+
+  &.outline {
+    color: #fff;
+  }
+
+  &.large {
+    width: 100%;
+    height: 56px;
+  }
+}
+
+.esim__list {
+  font-weight: 400;
+  margin-bottom: 24px;
+  padding-left: 20px;
+
+  &__item {
+    font-size: 14px;
+    line-height: 140%;
+    color: #7f8a9f;
+  }
+}
+
+
+.esim__grid {
+  display: flex;
+  align-items: flex-start;
+}
+
+.esim__image {
+  width: 406px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.esim__right {
+  padding-left: 96px;
+  flex-grow: 1;
+}
+
+.esim__title {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  margin-bottom: 24px;
+  color: #fff;
+
+  img {
+    margin-right: 16px;
+  }
+}
+
+.esim__buttons {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 8px;
+}
